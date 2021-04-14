@@ -52,7 +52,7 @@ const getOneAuthor = async (req, res) => {
     //authors.push(newAuthor)
     // return entire authors list to browser as a check that it worked
     //res.send(authors)
-}
+//}
 
 
 module.exports = {
