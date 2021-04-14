@@ -10,10 +10,10 @@ const authorController = require('../controllers/authorController.js')
 authorRouter.get('/', authorController.getAllAuthors)
 
 // handle the GET request to get one author
-authorRouter.get('/:authorId', authorController.getAuthorByID)
+authorRouter.get('/:authorId', authorController.getOneAuthor)
 
 // handle POST requests to add one author
-authorRouter.post('/', authorController.addAuthor)
+//authorRouter.post('/', authorController.addAuthor)
 
 // export the router
 module.exports = authorRouter

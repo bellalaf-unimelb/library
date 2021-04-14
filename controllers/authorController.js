@@ -57,6 +57,6 @@ const getOneAuthor = async (req, res) => {
 
 module.exports = {
 	getAllAuthors, 
-	getAuthorByID, 
+	getOneAuthor, 
 	//addAuthor
 }
